@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* :root{
+    --main-color: linear-gradient(to-right, #80B3FF, #BEADFA);
+} */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100vh;
+  align-items: center;
+  height: auto;
+  /* background: gray;
+  border-radius: 12px; */
+}
+
+.nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  color: black;
+}
+
+.fa-play {
+  font-size: small;
+  padding-left: 10px;
+}
+
+.logo {
+  filter: drop-shadow(5px 5px 10px rgb(159, 159, 159));
+}
+
+.sign-up {
+  height: 40px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+.sign-up:hover{
+  color: white;
+  background: #000;
+}
+
+.sign-in {
+  height: 40px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background: black;
+  color: white;
+  font-weight: bold;
+  transition: .5s ease-in-out;
+}
+
+.sign-in:hover{
+  background: white;
+  color: black;
+}
+
+.divider {
+  margin: 25px;
+  height: 1px;
+  width: 95vw;
+  background: #000;
+  /* border: 1px solid black; */
+}
+
+.left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: auto;
+}
+
+.glassleftcont{
+  width: 60%;
+  height:60vh;
+  /* border:  #e3e3e3; */
+  border-radius: 12px;
+}
+
+.cont {
+  width: 70%;
+  height: 60vh;
+  border: 1px solid black;
+  border-radius: 12px;
+  margin: 10px;
+  background: url('./assest/Group\ 4.png'), no-repeat;
+  background-size: cover;
+  filter: blur(15px);
+}
+
+.rightcont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    gap: 25px;
+    width: auto;
+}
+
+.rightcont .heading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    /* background: -webkit-linear-gradient(#80B3FF, #BEADFA);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    filter: drop-shadow(2px 2px 5px gray);
+    margin: 25px;
+}
+
+.rightcont p{
+    max-width: 220px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+.rightcont{
+  border: 1px solid black;
+  border-radius: 12px;
+  margin: 6px;
+}
+
+.downloadApp{
+    height: 50px;
+    width: 150px;
+    color: aliceblue;
+    font-size:15px;
+    outline: none;
+    background: #000;
+    border: 2px;
+    border-radius: 12px;
+    margin: 25px;
+    cursor: pointer;
+    /* font-family: 'Dancing Script', cursive; */
+    transition: .5s ease-in-out;
+}
+
+.downloadApp:hover{
+  height: 55px;
+  width: 155px;
+}
+
+
+.icons{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+.icons i{
+  cursor: pointer;
+  font-size: larger;
+  transition: .4s ease-in-out;
+}
+
+i:hover{
+  font-size: x-large;
+  color: rgb(117, 169, 253);
+}
+
+.logo{
+  cursor: pointer;
+}
